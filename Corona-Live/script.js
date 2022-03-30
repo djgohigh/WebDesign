@@ -16,7 +16,7 @@ $(function () {
         },
     });
     // 날짜 기준일  * tdy: 오늘, ytd: 어제, inc: 증감 *
-    let nowTime = getData.TbCorona19CountStatus.row[0].S_DT;
+    $("#nowTime").text(`${nowTime}`);
     
     // $(".l_con > div:nth-child(3)").text(`<div id="nowTime">${nowTime}</div>`);
     setNationWide();
