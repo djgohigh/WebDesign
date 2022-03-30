@@ -7,7 +7,7 @@ $(function () {
     
     $.ajax({
         type: "GET",
-        url: "http://openapi.seoul.go.kr:8088/6758584479646a38313033687442516b/json/TbCorona19CountStatus/1/5/",
+        url: "https://djkdf.herokuapp.com/http://openapi.seoul.go.kr:8088/6758584479646a38313033687442516b/json/TbCorona19CountStatus/1/5/",
         async: false,
         data: 'json',
         success: function (response) {
