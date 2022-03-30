@@ -4,12 +4,12 @@ $(function () {
     $.ajaxPrefilter('json', function(options, orig, jqXHR) {
         return 'jsonp';
     });
+    
     $.ajax({
         type: "GET",
-        crossDomain: true,
         url: "http://openapi.seoul.go.kr:8088/6758584479646a38313033687442516b/json/TbCorona19CountStatus/1/5/",
-        data: json,
         async: false,
+        data: 'json',
         success: function (response) {
             getData = response;
             console.log(getData);
