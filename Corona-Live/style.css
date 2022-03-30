@@ -26,7 +26,7 @@
 
 .c_con {
     display: flex;
-    width: 40rem;
+    width: 25rem;
     border: 1px solid #ccc;
     border-radius: 1rem;
     flex-direction: column;
@@ -52,7 +52,7 @@
 }
 
 .main_con {
-    width: 40rem;
+    width: 25rem;
     display: flex;
     position: relative;
     flex-direction: column;
