@@ -1,7 +1,7 @@
 let getData = [];
 
 $(function () {
-    $.ajaxPrefilter('json', fucntion(options, orig, jqXHR) {
+    $.ajaxPrefilter('json', function(options, orig, jqXHR) {
         return 'jsonp';
     });
     $.ajax({
